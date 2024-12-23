@@ -115,4 +115,4 @@ U_unknown_found = np.matvec(K22_inv, Q_known - np.matvec(K21, U_known))
 ```
 
 E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}
-![E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}](</01_1D_Stress/E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}.png?raw=true>)
+![E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}](</01_1D_Strain/E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}.png?raw=true>)
