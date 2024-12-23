@@ -78,10 +78,10 @@ K_{21} \ \ \ K_{22}
 \end{bmatrix}$$
 
 We split it in such a way that we can solve for the unknown U values
+
 $$\begin{bmatrix}
 K_{11} \ |\ \ K_{12}\\ 
 --- --\\
-
 K_{21} \  |\ \ K_{22}
 \end{bmatrix} \begin{pmatrix}
 U_{known} \\
@@ -93,7 +93,7 @@ F_{unknown}
 \end{pmatrix}$$
 
 
-$$U_{unknown} = K_{22}^{-1}(F_{known} - K_{22}U_{known})$$
+$$U_{unknown} = K_{22}^{-1}(F_{known} - K_{21}U_{known})$$
 Since RHS is comprised of known quanities, LHS can be obtained
 
 
@@ -115,4 +115,4 @@ U_unknown_found = np.matvec(K22_inv, Q_known - np.matvec(K21, U_known))
 ```
 
 E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}
-![E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}](<E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}.png>)
+![E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}](</01_1D_Stress/E-100000_A-1_FORCE-CONSTANT-3_F=Kx_Length-10_Number_of_elements-1000_U-{0: 0, 10: 0}_Q-{}.png?raw=true>)
